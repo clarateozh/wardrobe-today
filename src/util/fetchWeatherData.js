@@ -1,8 +1,8 @@
 import { fetchWeatherApi } from 'openmeteo';
 
 const params = {
-	"latitude": 49.96028728190555,
-	"longitude": 9.660567088631607,
+	"latitude": 0, // deleted for github
+	"longitude": 0, // deleted for github
 	"current": ["temperature_2m", "apparent_temperature", "rain", "showers", "snowfall"],
 	"hourly": ["temperature_2m", "apparent_temperature", "precipitation_probability", "rain", "showers", "snowfall"],
 	"timezone": "Europe/Berlin",
